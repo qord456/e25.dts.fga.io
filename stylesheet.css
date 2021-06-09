@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial";
+}
+
+a {
+  text-decoration: none;
+}
+ /* bagian atas (header) ya ini teh */
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255, 255, 255,0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+
+}
+
+.logo {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  font-weight: bold;
+
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #34495e;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*kalau ini bagian tengahnya.... lieur nya ?... sama saya juga.... wkwkwkwk */
+
+.top-header h1 {
+  font-size: 64px;
+  padding-bottom: 10px;
+
+}
+.top-header p {
+  font-size: 24px;
+  
+}
+
+.header {
+  line-height: 10px;
+  color: white;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0px 0px 0px;
+  background-image: url(a-l-ya631mqQ7Ng-unsplash.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 700px;
+  opacity: 0.9;
+}
+
+
+/* bagian tersulit T_T... bagian lesson */
+
+.lesson-wrapper {
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  padding: 80px 0px 0px 0px;
+
+}
+.bagian-atas h2 {
+  font-size:  64px;
+  margin-bottom: 0;
+
+}
+.bagian-atas h3 {
+  font-size:  24px;
+  font-weight: normal;
+}
+
+/* nah ini teh bagian bawahnya */
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #2c3e50;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 2px;
+  
+  
+}
+
+/* Button genre cuy... mangatss yaps walau pusing */
+ 
+
+.btn-atas {
+  margin-top: 40px
+}
+
+
+.btn-bawah a {
+  margin: 20px 0 0 0;
+
+}
+.btn {
+  padding: 60px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius:15px;
+}
+.btn:hover {
+  opacity: 1.0;
+}
+
+
+.putih{
+  color:#d35400 ;
+  background-color: white;
+  border: 3px solid #2c3e50 ;
+  font-weight: bold;
+  font-size: 28px;
+ 
+}
+
+.kuning {
+  color:white ;
+  background-color: #d35400;
+  border: 3px solid #2c3e50 ;
+  font-weight: bold;
+  font-size: 28px;
+  
+}
+
+/*next bagian daftar-daftar nih... terakhiran*/
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.bottom-wrapper {
+  text-align: center;
+  background-color: #34495e;
+  margin: 0px auto;
+  color: white;
+  padding: 60px auto;
+
+}
+
+.bottom-wrapper h2{
+  font-size: 64px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 60px;
+  
+}
+
+.bottom-wrapper h3 {
+  font-size:  24px;
+  font-weight: normal
+}
+.bottom-wrapper {
+  text-align: center;
+}
+.button {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.button:hover {
+  opacity: 1;
+}
+.button-wrapper {
+  text-align: center;
+  padding-bottom: 100px;
+
+}
+
+.lesson-wrapper {
+  border-bottom: 5px solid #f1c40f;
+  border-top: 5px solid #2c3e50;
+}
+
+
+
+.menu-icon {
+  color: #f1c40f;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}

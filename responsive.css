@@ -1,0 +1,74 @@
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-header h1 {
+    font-size: 48px;
+  }
+  
+  .top-header p {
+    font-size: 20px;
+  }
+  .bagian-atas h2{
+  	font-size: 48px;
+  }
+  .bagian-atas h3{
+  	font-size: 20px;
+  }
+  .btn {
+  	padding: 40px;
+  }
+  .bottom-wrapper h2{
+  	font-size: 48px;
+  }
+  .bottom-wrapper h3{
+  	font-size: 20px;
+  }
+  .button {
+  	padding: 10px 20px;
+  }
+  }
+
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 60%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  
+  .header-right {
+    display: none;
+  }
+  
+  
+  .menu-icon {
+    display: block;
+  }
+  
+  .top-header h1 {
+    font-size: 36px;
+    
+  }
+  
+  .top-header p {
+    font-size: 18px;
+    line-height: 20px;
+    
+  }
